@@ -1,0 +1,26 @@
+{
+    "name": "ClearBOT",
+    "description": "Clear Browser Data that is hidden from common user",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "browsingData","notifications"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/clearbot_16.png",
+        "32": "/images/clearbot_32.png",
+        "48": "/images/clearbot_48.png",
+        "128": "/images/clearbot_128.png"
+      }
+    },
+    "icons": {
+      "16": "/images/clearbot_16.png",
+      "32": "/images/clearbot_32.png",
+      "48": "/images/clearbot_48.png",
+      "128": "/images/clearbot_128.png"
+
+    }
+  }

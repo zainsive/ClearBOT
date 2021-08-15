@@ -1,0 +1,78 @@
+
+
+.container {
+    max-width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+ul.check_selector {
+    list-style: none;
+    align-items: center;
+    padding: 0px !important;
+    
+}
+ul.check_selector li{
+    display: inline;
+ 
+  
+}
+ul.check_selector li label{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.check_selector li label {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul.check_selector li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    margin: 0px 3px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    content: "\f067";
+    transition: transform .3s ease-in-out;
+}
+
+ul.check_selector li input[type="checkbox"]:checked + label::before {
+    content: "\f00c";
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.check_selector li input[type="checkbox"]:checked + label {
+    border: 2px solid #2b2d42;
+    background-color: #2b2d42;
+    color: #fff;
+    transition: all .2s;
+}
+
+ul.check_selector li input[type="checkbox"] {
+  display: absolute;
+}
+ul.check_selector li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+ul.check_selector li input[type="checkbox"]:focus + label {
+  border: 2px solid #4d4d4d;
+}

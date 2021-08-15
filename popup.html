@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Tourney&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/check.css">
+  </head>
+  <body>
+          <div class="wrapper">
+            <div class="logo">
+              <h1>ClearBOT</h1>
+            </div>
+          <div class="main-window">
+            <label class="d_label" for="duration">Choose duration:</label>
+            <select class="selector" name="duration" id="duration">
+              <option value="2">2 Days</option>
+              <option value="7">Last Week</option>
+              <option value="30">Last 30 Days</option>
+              <option value="365">Last Year</option>
+              <option value="0">All</option>
+            </select>
+
+            <div class="container">
+              <ul class="check_selector">
+                <li><input type="checkbox" id="check1" value="app-cache"><label for="check1">App Cache</label></li>
+                <li><input type="checkbox" id="check2" value="cache" ><label for="check2">Cache</label></li>
+                <li><input type="checkbox" id="check3" value="cacheStorage"><label for="check3">Cache Storage</label></li>
+                <li><input type="checkbox" id="check4" value="cookies"><label for="check4">Cookies</label></li>
+                <li><input type="checkbox" id="check5" value="downloads"><label for="check5">Downloads</label></li>
+                <li><input type="checkbox" id="check6" value="fileSystems"><label for="check6">File Systems</label></li>
+                <li><input type="checkbox" id="check7" value="formData"><label for="check7">Form Data</label></li>
+                <li><input type="checkbox" id="check8" value="history"><label for="check8">History</label></li>
+                <li><input type="checkbox" id="check9" value="indexedDB"><label for="check9">Indexed DB</label></li>
+                <li><input type="checkbox" id="check10" value="localStorage"><label for="check10">Local Storage</label></li>
+                <li><input type="checkbox" id="check11" value="passwords"><label for="check11">Passwords</label></li>
+                <li><input type="checkbox" id="check12" value="serviceWorkers"><label for="check12">Service Workers</label></li>
+                <li><input type="checkbox" id="check13" value="webSQL"><label for="check13">Web SQL</label></li> 
+              </ul>
+            <input class="btn-sumit" id="btn-submit" type="button" value="Clear">
+            </div>
+          </div>
+    </div>
+
+
+
+    <script src="popup.js"></script>
+  </body>
+</html>

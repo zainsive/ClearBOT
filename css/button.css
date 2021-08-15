@@ -1,0 +1,43 @@
+*{
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    width: 250px;
+    height: 100%;
+    background-color: #edf2f4 ;
+    color: #2b2d42 ;
+    padding: 8px 14px;
+}
+.d_label{
+    font-weight: bold;
+}
+.logo h1{
+    text-align: center;
+font-family: 'Tourney', cursive !important;
+}
+.selector{
+    margin-left: 20px;
+    outline: none;
+    padding: 2px 4px;
+    border: none;
+    background-color: #2b2d42;
+    text-align: center;
+    color: #edf2f4 ;
+}
+.btn-sumit{
+    width: 100%;
+    background-color: #2b2d42;
+    color: #edf2f4 ;
+    border: 0px solid black;
+    padding: 5px 0px;
+    cursor: pointer;
+
+}
+.btn-sumit:hover{
+    background-color: #393b50;
+}
