@@ -1,9 +1,9 @@
 # ClearBOT
 
 Chrome Extension written in Html, CSS and Vanilla Javascript. It helps you remove unwanted data Like:
-### - Cookies
-### - Cache
-### - Passwords etc 
+#### - Cookies
+#### - Cache
+#### - Passwords etc 
 in one go!
 
 Here is how to use it:
